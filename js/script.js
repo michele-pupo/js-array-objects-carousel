@@ -56,14 +56,14 @@ console.log(images);
 
 // bersagliamo lo slider
 const sliderElement = document.getElementById("slider");
+const sliderText = document.querySelector("h2");
 
 
 // tramite un ciclo for prendiamo ogni indirizzo delle immagini dall'array
 for (let i = 0; i < images.length; i++) {
 
-    sliderElement.innerHTML += `<img src="./img/0${i + 1}.webp" alt="immagine ${i + 1}">`;
-
     // per ognuno di essi andremo a creare un elemento img dentro lo slider
+    sliderElement.innerHTML += `<img src="./img/0${i + 1}.webp" alt="immagine ${i + 1}">`;
 
 }
 
