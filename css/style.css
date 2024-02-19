@@ -55,3 +55,18 @@
     cursor: pointer;
     transform: scale(1.2);
 }
+
+h2{
+    color: red;
+}
+
+p{
+    color: red;
+}
+
+
+.image-text{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
